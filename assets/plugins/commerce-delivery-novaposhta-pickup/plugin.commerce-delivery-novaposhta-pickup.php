@@ -48,7 +48,7 @@ switch ($modx->event->name) {
             ]);
         }
         if($config->getCFGDef('loadCSS')){
-            $scripts .= $assets->registerScript('novaposhta-pickup.css',['src'=>'assets/plugins/commerce-delivery-novaposhta-pickup/js/novaposhta-pickup.css']);
+            $scripts .= $assets->registerScript('novaposhta-pickup.css',['src'=>'assets/plugins/commerce-delivery-novaposhta-pickup/css/novaposhta-pickup.css']);
         }
         if($config->getCFGDef('loadJS')){
             $jsConfig = [
